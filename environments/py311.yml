@@ -1,0 +1,57 @@
+name: py311
+channels:
+ - conda-forge
+ - nodefaults
+dependencies:
+ - python=3.11
+ - numpy
+ - sqlalchemy
+ - matplotlib
+ - netcdf4
+ - cartopy
+ - cliff
+ - hdf4
+ - ipdb
+ - pandas
+ - tqdm
+ - xarray
+ - dask
+ - arrow
+ - nbsphinx
+ - bottleneck
+ - coverage
+ - ipython
+ - jupyterlab
+ - lxml
+ - mocsy 
+ - pingouin
+ - pillow
+ - pyproj
+ - pykrige
+ - pytest
+ - pytz
+ - python-dateutil
+ - pyyaml
+ - requests
+ - retrying
+ - oyaml
+ - seaborn
+ - scipy
+ - scikit-learn
+ - shapely
+ - sphinx
+ - sphinx_rtd_theme
+ - cmocean
+ - openpyxl
+ - f90nml
+ - gsw
+ - papermill
+ - pip
+ - windrose
+ - gstools
+ - pip:
+   - angles
+# conda env create -f py311.yml
+# conda activate py311
+# pip install --editable /ocean/ksuchy/MOAD/tools/SalishSeaTools
+# python -m ipykernel install --user --name py311 --display-name "Python (py311)"
